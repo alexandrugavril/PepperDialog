@@ -1,6 +1,8 @@
 # PepperDialog
 
-entitati cu nume - HealthValues: blood pressure, heartrate, steps, sleep, weight
+entitati cu nume 
+
+		   HealthValues: blood pressure, heartrate, steps, sleep, weight
 		   Output: display, speech
 		   Rooms: Laboratory 308, Laboratory 303, Kitchen, Meeting Room, Elevator, Bathrooms
 		   Actuators: Light, Blinds, SendMail, Exercise, Call, GoTo
@@ -9,10 +11,11 @@ entitati cu nume - HealthValues: blood pressure, heartrate, steps, sleep, weight
 		   PersonalInformation: Calendar, Notifications, 
 		   Target: People names, Object labels 
 		   Sensors: Door, Window, Movement
-		   
 		   Others: Weather, Time and Date
 		   
-intents - HealthInformationQuery, ActuationQuery, PersonalInformationQuery, RoomQuery, GeneralQueries, NoIntent
+intents
+
+	  HealthInformationQuery, ActuationQuery, PersonalInformationQuery, GeneralQueries, NoIntent
 
 	  HealthInformationQuery -> HealthInformation (No Entity) -> General Health Information
 			    	 -> HealthInformation (No Entity, Output) -> General Health Information outputed on Output entity
@@ -43,9 +46,9 @@ intents - HealthInformationQuery, ActuationQuery, PersonalInformationQuery, Room
 	 
 	  	
 
-entitati fara nume - Hello, Who made you, How are you, 
+entitati fara nume - 
 
-
+	Hello, Who made you, How are you, 
 
 Rasa merge in romana -> Antrenezi Mitie vs Mitie in engleza
 Language Detection (Ro / Eng) -> Wit (Ro / Eng) -> Entitati / Intent -> Rasa -> Story / Actiune -> Execute
