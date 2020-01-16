@@ -1,0 +1,354 @@
+{
+    "data": [
+        {
+            "text": "Cat am pulsul?",
+            "entities": [
+                {
+                    "entity": "HealthValue",
+                    "value": "\"HeartRate\"",
+                    "start": 7,
+                    "end": 13
+                }
+            ]
+        },
+        {
+            "text": "Ce tensiune arteriala am?",
+            "entities": [
+                {
+                    "entity": "HealthValue",
+                    "value": "\"BloodPressure\"",
+                    "start": 3,
+                    "end": 21
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                }
+            ]
+        },
+        {
+            "text": "Afiseaza-mi tensiunea arteriala",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                },
+                {
+                    "entity": "HealthValue",
+                    "value": "\"BloodPressure\"",
+                    "start": 12,
+                    "end": 31
+                },
+                {
+                    "entity": "Output",
+                    "value": "\"Display\"",
+                    "start": 0,
+                    "end": 8
+                }
+            ]
+        },
+        {
+            "text": "Spune-mi ce puls am.",
+            "entities": [
+                {
+                    "entity": "HealthValue",
+                    "value": "\"HeartRate\"",
+                    "start": 12,
+                    "end": 16
+                },
+                {
+                    "entity": "Output",
+                    "value": "\"Speech\"",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                }
+            ]
+        },
+        {
+            "text": "Zi-mi ce greutate am",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                },
+                {
+                    "entity": "HealthValue",
+                    "value": "\"Weight\"",
+                    "start": 9,
+                    "end": 17
+                },
+                {
+                    "entity": "Output",
+                    "value": "\"Speech\"",
+                    "start": 0,
+                    "end": 2
+                }
+            ]
+        },
+        {
+            "text": "Arata-mi pulsul",
+            "entities": [
+                {
+                    "entity": "HealthValue",
+                    "value": "\"HeartRate\"",
+                    "start": 9,
+                    "end": 15
+                },
+                {
+                    "entity": "Output",
+                    "value": "\"Display\"",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                }
+            ]
+        },
+        {
+            "text": "Afiseaza-mi numarul de pasi",
+            "entities": [
+                {
+                    "entity": "Output",
+                    "value": "\"Display\"",
+                    "start": 0,
+                    "end": 8
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                },
+                {
+                    "entity": "HealthValue",
+                    "value": "\"Steps\"",
+                    "start": 23,
+                    "end": 27
+                }
+            ]
+        },
+        {
+            "text": "Ce puls am?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                },
+                {
+                    "entity": "HealthValue",
+                    "value": "\"HeartRate\"",
+                    "start": 3,
+                    "end": 7
+                }
+            ]
+        },
+        {
+            "text": "Ce greutate am?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"HealthInformationQuery\""
+                },
+                {
+                    "entity": "HealthValue",
+                    "value": "\"Weight\"",
+                    "start": 3,
+                    "end": 11
+                }
+            ]
+        },
+        {
+            "text": "Deschide jaluzelele",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Actuator",
+                    "value": "\"Blinds\"",
+                    "start": 9,
+                    "end": 19
+                },
+                {
+                    "entity": "Action",
+                    "value": "\"On\"",
+                    "start": 0,
+                    "end": 9
+                }
+            ]
+        },
+        {
+            "text": "Inchide lumina",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Actuator",
+                    "value": "\"Light\"",
+                    "start": 8,
+                    "end": 14
+                },
+                {
+                    "entity": "Action",
+                    "value": "\"Off\"",
+                    "start": 0,
+                    "end": 8
+                }
+            ]
+        },
+        {
+            "text": "Suna-l pe Alex",
+            "entities": [
+                {
+                    "entity": "Actuator",
+                    "value": "\"Call\"",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Target",
+                    "value": "\"Alex\"",
+                    "start": 10,
+                    "end": 14
+                }
+            ]
+        },
+        {
+            "text": "Scrie-i lui Stefania",
+            "entities": [
+                {
+                    "entity": "Actuator",
+                    "value": "\"SendMail\"",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                }
+            ]
+        },
+        {
+            "text": "Scrie-i lui Alex",
+            "entities": [
+                {
+                    "entity": "Actuator",
+                    "value": "\"SendMail\"",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Target",
+                    "value": "\"Alex\"",
+                    "start": 12,
+                    "end": 16
+                }
+            ]
+        },
+        {
+            "text": "Du-te la Alex",
+            "entities": [
+                {
+                    "entity": "Actuator",
+                    "value": "\"GoTo\"",
+                    "start": 0,
+                    "end": 5
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Target",
+                    "value": "\"Alex\"",
+                    "start": 9,
+                    "end": 13
+                }
+            ]
+        },
+        {
+            "text": "Trimite-i un mail lui Stefania",
+            "entities": [
+                {
+                    "entity": "Actuator",
+                    "value": "\"SendMail\"",
+                    "start": 0,
+                    "end": 9
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Actuator",
+                    "value": "\"SendMail\"",
+                    "start": 13,
+                    "end": 17
+                },
+                {
+                    "entity": "Target",
+                    "value": "\"Stefania\"",
+                    "start": 22,
+                    "end": 30
+                }
+            ]
+        },
+        {
+            "text": "Cum se face exercitiul de ridicare brate",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Actuator",
+                    "value": "\"Exercise\"",
+                    "start": 12,
+                    "end": 21
+                },
+                {
+                    "entity": "ExerciseType",
+                    "value": "\"ridicare brate\"",
+                    "start": 26,
+                    "end": 40
+                }
+            ]
+        },
+        {
+            "text": "Lasa jaluzelele te rog",
+            "entities": [
+                {
+                    "entity": "Action",
+                    "value": "\"Decrease\"",
+                    "start": 0,
+                    "end": 4
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"ActuationQuery\""
+                },
+                {
+                    "entity": "Actuator",
+                    "value": "\"Blinds\"",
+                    "start": 5,
+                    "end": 15
+                }
+            ]
+        }
+    ]
+}

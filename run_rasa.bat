@@ -1,0 +1,1 @@
+rasa x --enable-api --endpoints .\endpoints.yml
